@@ -1,4 +1,4 @@
-x = 3
+"""x = 3
 y = float(3)
 print(x,y)
 
@@ -21,3 +21,20 @@ if day_of_week == "Friday" or "friday":
     print("correct")
 else:
     print("incorrect")
+
+x = "test"
+print(f"hello {x}")
+
+temp = 200000000
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')"""
+
+print (5%3)
+
+def factor (x,y)
+    if x % y
+factor (25,5)
