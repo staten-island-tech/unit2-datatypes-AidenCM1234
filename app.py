@@ -32,4 +32,7 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold')"""
-5 % 2
+def g(g) :
+    if g % 2 == 0:
+        print:('')
+g(57)
