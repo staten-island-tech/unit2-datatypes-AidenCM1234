@@ -40,18 +40,29 @@ def odd_even(g) :
         print("odd")
 odd_even(59)
 """
+def y(y):
+    print (y * 2)
+y(5)
+
 def ser(s):
-    if s == ("bad"):
+    def bill(b):
+        if s == ("bad"):
+            def tip (x):
+                    print (0 tip)
+                    print (b * x)
+        tip(0)
+        """elif s == ("okay"):
         def tip (x):
-            print(f"tip= {x}")
-        tip(5)
-    if s == ("okay"):
-        print('15')
-    if s == ("good"):
-        print('20')
-    if s == ("great"):
-        print('25')
+            print(b * x)
+        tip(15)
+        elif s == ("good"):
+        def tip (x):
+            print(b * x)
+        tip(20)
+        elif s == ("great"):
+        def tip (x):
+            print(b * x)
+        tip(25)"""
+    bill(10)
 ser("bad")
-
-
 
