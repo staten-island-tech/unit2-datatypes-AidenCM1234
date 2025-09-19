@@ -32,25 +32,26 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold')"""
-
+"""
 def odd_even(g) :
     if g % 2 == 0:
         print("even")
     else:
         print("odd")
 odd_even(59)
-
+"""
 def ser(s):
     if s == ("bad"):
         def tip (x):
-            tip(5)
+            print(f"tip= {x}")
+        tip(5)
     if s == ("okay"):
         print('15')
     if s == ("good"):
         print('20')
     if s == ("great"):
         print('25')
-ser("good")
-print(f"hello {tip}")
+ser("bad")
+
 
 
