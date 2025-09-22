@@ -32,7 +32,7 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold')"""
-
+"""
 def odd_even(g) :
     if g % 2 == 0:
         print("even")
@@ -61,4 +61,8 @@ def ser(s):
             tip(0.25)
     bill(10)
 ser("good")
-
+"""
+def factor(x):
+    for i in range(x):
+        factor(x+1)
+factor(5)
