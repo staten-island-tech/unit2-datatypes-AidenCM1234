@@ -64,5 +64,18 @@ ser("good")
 """
 def factor(x):
     for i in range(x):
+        if (6%x) == 0:
+            print(f"{x} is factor")
         factor(x+1)
-factor(5)
+factor(1)
+
+def gfactor(x):
+    for i in range(x):
+        if (6%x) == 0:
+            print(f"{x} is factor")
+        gfactor(x+1)
+gfactor(1)
+
+
+
+
