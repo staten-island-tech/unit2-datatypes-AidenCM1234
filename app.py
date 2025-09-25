@@ -61,18 +61,18 @@ def ser(s):
             tip(0.25)
     bill(10)
 ser("good")
-"""
+"""   """
 def factor(x):
     for i in range(x):
         if (6%x) == 0:
             print(f"{x} is factor")
         factor(x+1)
-factor(1)
+factor(1)"""
 
 def gfactor(x):
     for i in range(x):
-        if (6%x) == 0:
-            print(f"{x} is factor")
+        if (6%x) == 0 and (8%x) == 0:
+            print(f"{x} is greatest common factor")
         gfactor(x+1)
 gfactor(1)
 
