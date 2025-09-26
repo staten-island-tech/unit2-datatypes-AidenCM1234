@@ -38,7 +38,7 @@ def odd_even(g) :
         print("even")
     else:
         print("odd")
-odd_even(60)
+odd_even(60)`1  
 
 
 def ser(s):
@@ -70,12 +70,10 @@ def factor(x):
 factor(1)"""
 
 def gfactor(x):
-    for i in range(x):
-        if (6%x) == 0 and (8%x) == 0:
-            print(f"{x} is greatest common factor")
+    def y(y):
+        for i in range(x):
+            if (42%x) == 0 and (56%x) == 0:
+                y(x)
         gfactor(x+1)
+    print(f"{y} is greatest common factor")
 gfactor(1)
-
-
-
-
